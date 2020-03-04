@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="main.css">
+  <title>ISS Tracker</title>
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+</head>
+
+<body>
+  <div id="container">
+    <div class="info">
+      <div id="out"></div>
+      <div id="hours">
+        <script language="JavaScript" type="text/javascript" src="date.js"></script>
+      </div>
+    </div>
+    <script src="js.js"> </script>
+    <div class="stats">
+      <div id="map"></div>
+      <div class="name">
+        <p>1.Andrew Morgan<span>(usa)</sapn></p> 
+        <p>2.Oleg Skripochka<span>(russia)</sapn></p>
+        <p>3.Jessica Meir<span>(usa)</sapn></p>
+      </div>
+    </div>
+    <div id="people" class="people"> </div>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRamfMG3mZVAQ_dnzqj6adZxg5zn4Tfy4&callback=initMap">
+    </script>
+</body>
+
+</html>
